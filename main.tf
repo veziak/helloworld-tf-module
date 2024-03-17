@@ -1,3 +1,6 @@
+resource "null_resource" "nothing" {
+}
+
 variable "name" {
    type = string
    default = "world"
